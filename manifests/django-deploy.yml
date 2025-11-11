@@ -15,7 +15,6 @@ spec:
       containers:
         - name: nginx-d
           image: nginx:1.25
-         # image: liketiger/mynginxd:0.3
           ports:
             - containerPort: 80
 
